@@ -12,6 +12,8 @@ import Lesson3_6 from './pages/lesson3_6.jsx'
 import Lesson3_7 from './pages/lesson3_7.jsx'
 import Lesson3_8 from './pages/lesson3_8.jsx'
 import Lesson3_9 from './pages/lesson3_9.jsx'
+import Lesson3_10 from './pages/lesson3_10.jsx'
+import Lesson3_11 from './pages/lesson3_11.jsx'
 
 function App() {
 
@@ -49,6 +51,12 @@ function App() {
           <li>
             <Link to="/lesson3_9">Lesson 3.9</Link>
           </li>
+          <li>
+            <Link to="/lesson3_10">Lesson 3.10</Link>
+          </li>
+          <li>
+            <Link to="/lesson3_11">Lesson 3.11</Link>
+          </li>
         </ul>
       </nav>
       
@@ -63,6 +71,8 @@ function App() {
         <Route path="/lesson3_7" element={<Lesson3_7 />} />
         <Route path="/lesson3_8" element={<Lesson3_8 />} />
         <Route path="/lesson3_9" element={<Lesson3_9 />} />
+        <Route path="/lesson3_10" element={<Lesson3_10 />} />
+        <Route path="/lesson3_11" element={<Lesson3_11 />} />
       </Routes>
     </>
   )
